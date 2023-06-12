@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    background-color: red;
+    width: 67%;
+    height: 117px;
+}

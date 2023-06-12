@@ -21,6 +21,21 @@
 //IF SUM OF AGES IS LESS THAN OR EQUAL TO 160
 //Return "QUALIFIED"
 
+
+let vicePresidentAge = 57;
+let presidentAge = 77;
+let secretaryAge = 26;
+
+let sum = vicePresidentAge + presidentAge + secretaryAge;
+
+if (sum > 160) {
+   // DISQUALIFY THE CANDIDATE
+}
+IF(sum <= 160) {
+    //QUALIFY THE CANDIDATE
+}
+
+
 //Integer/Number
 let myAge = 10;
 console.log(typeof myAge);
@@ -117,7 +132,114 @@ function grade(score) {
     if (studentMark >= 41 && studentMark <= 50) {
         return "FAIR";
     }
+    
     else return "FAILED";
 }
 
 console.log(grade("1O"));
+
+
+switch
+CASE 1: Input is not a number
+    RETURN "Kindly input a number"
+break;
+CASE 2: Input is greater than 100
+    RETURN "Invalid score, a student cannot score more than 100%"
+break;
+CASE 3: Input is between 71 - 100
+    RETURN "EXCELLENT"
+CASE 4: Input is between 51 - 70
+    RETURN "GOOD"
+break;
+CASE 5: Input is between 41 - 50
+    RETURN "FAIR"
+break;
+CASE 6: Input is between 0 - 40
+    RETURN "FAILED"
+break;
+DEFAULT: RETURN "Invalid score"
+
+
+//IF CHILD IS ONE YEAR OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 2 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 3 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 4 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 5 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 6 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 7 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 8 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 9 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 10 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 11 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 12 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 13 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 14 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 15 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 16 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+
+//IF CHILD 17 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+//STOP!
+
+
+
+//WHILE CHILD IS LESS THAN 18 YEARS OLD
+//ADD 150 K TO HIS ACCOUNT
+//EVERY TWO YEARS 
+
+
+//CONDITION
+//LOGIC & ACTIONS
+//ITERATOR -3
+//LOOPS - 6 TIMES
+
+
+//how many letters are repeated in consecutively in a word
+
+//accommodation
+let counter = 2;
+
+//create a variable called counter
+//set counter - 0
+//while the words exists
+//iteration - 1
+//check if the first letter is equal to the second letter
+//if it is, add 1 to the counter
+//return counter
+
+
+//condition
+//logic & actions /instructions
+//loop
+//iterator
