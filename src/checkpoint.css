@@ -1,0 +1,74 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.headerParent {
+  background-color: #23263a;
+  color: #fff;
+
+}
+
+.headerParent h1{
+    font-size: 24px;
+}
+
+.headerParent p{
+    font-size: 14px;
+}
+
+.content{
+width: 80%;
+margin: 0 auto;
+}
+
+
+.child1 {
+  width: 150px;
+  margin: 0 auto;
+     padding-top: 25px;
+}
+
+.child1 img {
+  width: 100%;
+}
+
+.child2 {
+  height: 300px;
+   padding-top: 25px;
+  text-align: center;
+}
+
+.iconClass {
+  color: #fff;
+  margin-right: 10px;
+  border: 1px solid #FF4A57;
+  padding: 5px;
+    border-radius: 50%;
+}
+
+.youtube{
+   color: #FF4A57;
+   width: 100px;
+   height: 80px;
+}
+
+.btn{
+    background-color: #23263a;
+      border: 1px solid #FF4A57;
+      height: 40px;
+      border-radius: 15px;
+      width: 40%;
+      color: #fff;
+}
+
+.headerLowerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width:400px){
+    .child1 img {
+  width: 120%;
+}
+}

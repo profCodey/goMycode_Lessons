@@ -1,0 +1,21 @@
+button:hover{
+background-color: darkorange;
+}
+
+body{
+background-color: blue;
+}
+
+/* 
+.container-mediaquery{
+    display: flex;
+} */
+
+
+@media screen and (max-width:450px){
+.container-mediaquery{
+    flex-direction: column;
+    height: 180px;
+    width: 100%;
+}
+}

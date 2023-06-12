@@ -1,0 +1,44 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 40px;
+}
+
+.child {
+  width: 15vw;
+  background-color: #ec9900;
+  padding: 20px 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 870px){
+    .parent{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .child{
+        width: 80vw;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+.parent{
+        gap: 20px;
+}
+
+.child{
+    width: 80vw;
+}
+}
+
+@media screen and (max-width: 300px) {
+.child{
+    width: 70vw;
+}
+}

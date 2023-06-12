@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+
+    width: 100vw;
+    height: 100vh;
+
+  
+}
+
+/* br + p{
+    color: red
+} */
+
+
+
+
+/* .header{
+    color:red
+} */
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  margin-right: 10px;
+} */
+
+/* .paras{
+    width: 50%;
+    height: 50vh;
+} */
+
+    .paras p{
+    color:red
+}
