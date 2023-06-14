@@ -243,3 +243,132 @@ let counter = 2;
 //logic & actions /instructions
 //loop
 //iterator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// At this checkpoint you are asked to write an algorithm that fulfills the following description:
+
+// Description:
+
+//     Problem 1
+     
+//     Given two sets of elements, find the sum of all distinct elements from the set. In other words, find the sum of all elements which are present in either of the given set.
+//     Example:
+//     Set 1 : [3, 1, 7, 9], Set 2: [2, 4, 1, 9, 3]
+//     Output: 13 (distinct elements 4, 7, 2 )
+//     Give a solutions to this problem, using arrays
+
+     
+
+
+
+
+// We consider three integer variables x, y and z.
+// We define the circular permutation between x, y and z as the operation which gives x the  value of y, at y the value of z and at z the value of x.
+// Write an algorithm allowing circular permutation between x, y and z. The algorithm should read  the 3 values then display them after permutations.
+// Example: if x = 3 y = -1 and z = 7, we will have after permutations: x = -1, y = 7 and z = 3.
+
+//GET vairable X =  17
+//Get variable Y  =  23
+//Get variable Z =  33
+//LET X = Y
+//LET Y = Z
+//LET Z = X;
+//CONSOLE.LOG(X)
+//CONSOLE.LOG(Y)
+//console.log(10)
+
+let name = "sola";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// [ "PDP", "APC", , "ADC", "SDP", "ANPP"," APGA", "PPA", "DPP", "NCP", "CPP", "PPN", "LP"]
+
+//as long as position <= 11
+//check for the name of the party
+// store the party name in a variable called party
+//check the array for all the candidate that has the party name of party
+//
+
+
+let party = "PDP"
+let age1 = 78
+let age2 = 99
+let age3 = 67
+
+
+[
+ let candidate1 ={
+age : 78,
+party : "PDP",
+position: "President"
+}
+
+let candidate2 = {
+    age: 67,
+    party : "LP",
+    position: "VP"
+}
+
+let canditate3 = {
+    age:  "99",
+    party: "PDP",
+    position: "Secretary"
+}
+
+let canditate4 = {
+    age:  "99",
+    party: "PDP",
+    position: "VP"
+}
+]
+
+ let party ="APC"
+
+
+
+
+
+
+
+//ITERATOR
+//CONDITION
+//INSTRUCTION
+
+
+12 months  = 1
+1 months = 0.08
+..16
+
+
+interval = 2;
+while (child < 18){
+withdraw 50K from parents ACCOUNT
+add 50K to child's acount
+}
+
+
