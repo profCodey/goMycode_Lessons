@@ -15,11 +15,45 @@ n =19
 // if (n is not equals or less 1) {
     //chopIChop(n = n-1)
 // }
-
+                
 //keep the last one naira
 //return
 
 // }
+
+
+//age of the child
+//iterator = 1 year
+//while the child is less than 18
+//debit 100k from the parent's acc
+//credit it to the child's acc
+
+
+// function gtBankChildSavingsPlan(age) {
+//debit 100k from the parent's acc
+//credit the 100K to the child's acc
+
+//if (age is less than 18) {
+// gtBankChildSavingsPlan(age = age + 1));
+// }
+//}
+
+
+//SLEECTION
+IF(RAIN IS FALLING){
+   WEAR RAIN COAT
+}
+
+// function prepareEba(){
+//     boil water
+//     add garri
+//     stir
+//     add water
+//     stir
+//serve my eba and cover it
+// }
+    
+prepareEba()
 
 
 
