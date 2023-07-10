@@ -17,15 +17,27 @@ const decreaseBtn = document.querySelector("#decrease");
 
 const increaseBtn = document.querySelector("#increase");
 
+const parent = document.getElementById("btnParent");
+
+const resetBtn = document.createElement("button");
+
+parent.appendChild(resetBtn);
+
+resetBtn.textContent = "Reset";
+console.log(resetBtn);
 
 container.style.textAlign = "center";
 counter.style.fontSize = "100px";
 
 decreaseBtn.addEventListener("click", function () {
-    counter.textContent = Number(counter.textContent) - 1
-
+  if (Number(counter.textContent) > 0)
+    counter.textContent = Number(counter.textContent) - 1;
 });
 
 increaseBtn.addEventListener("click", function () {
-counter.textContent = Number(counter.textContent) +1
+  counter.textContent = Number(counter.textContent) + 1;
+});
+
+resetBtn.addEventListener("click", function () {
+  counter.textContent = 0;
 });
