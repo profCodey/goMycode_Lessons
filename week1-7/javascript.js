@@ -377,5 +377,54 @@ classArr.push("Dami")
 console.log(classArr);
 
 let myDreamCar = {
-  
+  carName : "Toyota",
+  model: "Venza",
+  noOfTyres: 4,
+  color: "White",
 }
+
+myDreamCar.year = 2017;
+myDreamCar["year"] =2018
+console.log(myDreamCar);
+//Dot Notation
+//Bracket Notation
+
+let carName = myDreamCar.carName
+
+console.log(myDreamCar["color"]);
+
+
+let cohort = ["sola", "Hakeeb", "Nifemi", "Dami"]
+cohort[cohort.length] = "Lanre";
+cohort.push("Demilade")
+cohort.pop()
+cohort.shift("Demilade")
+console.log(cohort);
+
+
+const Dami = {
+  wakeUpTime: "2am",
+  bestFood: "Rice",
+  character: "gente",
+  sleepTime() {
+return this.wakeUpTime.substring(0, 1) + "pm";
+  }
+}
+
+console.log(Dami.sleepTime());
+
+
+
+switch (childAge)
+if(childAge > 100 ) return "Person is not  human being"
+let typeofDrink;
+case 13:
+  typeofDrink = "Drink Toddy"
+  break;
+  case 14:
+   typeofDrink = "Dring coke"
+    break;
+  case 18:
+typeofDrink = "Drink beek"
+      default:
+        return "Drink Water"
