@@ -26,6 +26,8 @@ parent.appendChild(resetBtn);
 resetBtn.textContent = "Reset";
 console.log(resetBtn);
 
+increaseBtn.style.backgroundColor = "red";
+
 container.style.textAlign = "center";
 counter.style.fontSize = "100px";
 
@@ -38,6 +40,25 @@ increaseBtn.addEventListener("click", function () {
   counter.textContent = Number(counter.textContent) + 1;
 });
 
-resetBtn.addEventListener("click", function () {
+// resetBtn.onclick = reset
+
+resetBtn.addEventListener("click", reset);
+
+function reset() {
   counter.textContent = 0;
-});
+}
+
+const text = document.querySelector("#text");
+
+text.style.fontSize = "60px";
+
+text.addEventListener("mouseenter", () => mouseover1());
+text.addEventListener("mouseleave", () => mouseleave());
+
+function mouseover1() {
+  text.style.color = "green";
+}
+
+function mouseleave() {
+  text.style.color = "blue";
+}
