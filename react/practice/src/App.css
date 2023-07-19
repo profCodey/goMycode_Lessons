@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  width: 800px;
+  grid-template-columns: repeat(2, 40%); /* 2 columns with equal width */
+  grid-template-rows: repeat(5, 150px); /* 5 rows with 100px height each */
+  gap: 10px; /* Gap between grid items */
+  justify-content: center; /* Center grid items horizontally */
+  align-items: center; /* Center grid items vertically */
+  height: 100vh; /* Set container height to full viewport height */
+}
+
+/* .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  font-weight: bold;
+} */
