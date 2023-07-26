@@ -1,7 +1,8 @@
-import "./App.css";
-
 import React from "react";
-import Container from "./components/container";
+import "./container.css";
+import Products from "./products";
+import Background from "./background";
+
 const products = [
   {
     productId: 1,
@@ -35,21 +36,19 @@ const products = [
   },
 ];
 
-function App() {
+
+
+
+function Container() {
   return (
-    <div className="text">
-      {/* <Container /> */}
-
-
-      {products.map((value) => (
-        <div>
-          <p>{value.productId}</p>
-          <p>{value.name}</p>
-          <img src={value.src} alt="" />
-        </div>
-      ))}
+    <div className="productDiv">
+      {products.map(value => (
+        <Products pics={value.src} title={value.name} />
+  ))}
     </div>
   );
 }
 
-export default App;
+export default Container;
+
+

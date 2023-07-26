@@ -1,7 +1,3 @@
-import "./App.css";
-
-import React from "react";
-import Container from "./components/container";
 const products = [
   {
     productId: 1,
@@ -31,25 +27,10 @@ const products = [
     productId: 4,
     name: "Trendy Mens Casual Shoes",
     src: "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/0283522/1.jpg?2106",
-    price: 5500,
+    price: 10500,
   },
 ];
 
-function App() {
-  return (
-    <div className="text">
-      {/* <Container /> */}
 
 
-      {products.map((value) => (
-        <div>
-          <p>{value.productId}</p>
-          <p>{value.name}</p>
-          <img src={value.src} alt="" />
-        </div>
-      ))}
-    </div>
-  );
-}
 
-export default App;
