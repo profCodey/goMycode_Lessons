@@ -1,7 +1,6 @@
 import React from "react";
 import "./container.css";
 import Products from "./products";
-import Background from "./background";
 
 const products = [
   {
@@ -36,19 +35,14 @@ const products = [
   },
 ];
 
-
-
-
 function Container() {
   return (
     <div className="productDiv">
-      {products.map(value => (
+      {products.map((value) => (
         <Products pics={value.src} title={value.name} />
-  ))}
+      ))}
     </div>
   );
 }
 
 export default Container;
-
-

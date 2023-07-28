@@ -17,6 +17,3 @@ function Products({pics, title}) {
 export default Products;
 
 
-function add (a, b) {
-  return a + b
-}
