@@ -57,12 +57,15 @@
 import "./App.css";
 import React from 'react'
 import Homepage from "./components/props/homepage";
+import UseState from "./components/hooks/useState";
 
 function App() {
   return (
     <div>
       <div>App</div>
-      <Homepage />
+      {/* <Homepage /> */}
+      <UseState />
+
     </div>
   )
 }

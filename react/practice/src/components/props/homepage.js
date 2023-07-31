@@ -38,7 +38,7 @@ function Homepage() {
     alert("You just clicked this button")
   }
   return (
-    <div>
+<div>
       <button onClick={handleButton}>Click me</button>
 
       <div>Welcome to Gomycode. Kindly register</div>
