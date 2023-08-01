@@ -5,7 +5,7 @@ import Form from "./form";
 import Button from "./button";
 import Container from "./container";
 
-function Homepage() {
+export default function Homepage() {
   let formStyle = { marginBottom: "100px" };
 
   let btnStyle = {
@@ -69,7 +69,7 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+
 
 // let props = {
 //   text1: "Username",
