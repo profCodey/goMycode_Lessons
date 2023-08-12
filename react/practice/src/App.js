@@ -65,6 +65,7 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import Practice from "./components/props2/practice";
 import Practice2 from "./components/useState/practice";
+import AppRoute from "./components/ReactRouter/Router/route";
 
 const products = [
   {
@@ -105,13 +106,18 @@ price: 4800,
 
 function App() {
   return (
-    <div style={{ display: "flex", gap: "10px" }}>
-      {products.map(value => (
-        <Practice image={value.src} text={value.name} />
-      ))}
+    <>
+      {/* <div style={{ display: "flex", gap: "10px" }}>
+       {products.map(value => (
+          <Practice image={value.src} text={value.name} />
+        ))}
+       <Practice2 />
+      </div> */}
 
-     <Practice2 /> 
-    </div>
+      <AppRoute />
+      
+    </>
+  
   );
 }
 

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const products = [
   {
@@ -37,8 +37,8 @@ const products = [
 function Practice2() {
   const [myName, setMyName] = useState("Lanre");
   const [apiResult, setApiResult] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
   // const [firstName, setFirstName] = useState("Abiodun");
   // const [secondName, setSecondName] = useState("Lanre");
   // let myName = "Adeshina";
@@ -51,6 +51,10 @@ function Practice2() {
     },
     [apiResult]
   );
+
+  useEffect(() => {
+    // handleSubmit();
+  }, []);
 
   console.log(apiResult);
   function handle() {
@@ -69,12 +73,18 @@ function Practice2() {
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    // console.log(customerEmail.current.value);
     let userLogin = {
-      email: email,
-      password: password,
+      email: email.current.value,
+      password: password.current.value,
     };
+
     console.log(userLogin);
   }
+  let email = useRef()
+  let password = useRef()
+
 
   return (
     <div>
@@ -88,8 +98,9 @@ function Practice2() {
           <input
             type="email"
             placeholder="Email"
-            value={setEmail((e) => e.target.value)}
-            onChange={(e) => e.target.value}
+            // value={email}
+            // onChange={(e) => setEmail(e.target.value)}
+     ref={email}
           />
         </label>
         <br />
@@ -98,8 +109,9 @@ function Practice2() {
           <input
             type="password"
             placeholder="Password"
-            onChange={(e) => e.target.value}
-            value={setPassword((e) => e.target?.value)}
+            // onChange={(e) => setPassword(e.target.value)}
+            // value={password}
+          ref={password}
           />
         </label>
         <br />
