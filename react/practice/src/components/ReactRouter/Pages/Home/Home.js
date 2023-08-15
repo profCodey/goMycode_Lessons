@@ -3,7 +3,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div>
+    <React.Fragment>
       <h1>Welcome TO Our Sync Desgin Limited and Construction</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia qui
@@ -29,7 +29,7 @@ function Home() {
         aliquam eligendi laborum similique, vitae alias in expedita! Dicta,
         rerum?
       </p>
-    </div>
+    </React.Fragment>
   );
 }
 
