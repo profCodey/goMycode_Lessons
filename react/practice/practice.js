@@ -194,3 +194,18 @@ function amicableNumbers(num1, num2) {
     return sum === b
   }
 }
+
+console.log(Math.min(4, 21));
+
+function maxlen(l1, l2) {
+  // return maximum length
+  if (l1 === l2) return l1 / 2;
+  let shorter = Math.min(l1, l2);
+  let longer = Math.max(l1, l2);
+
+  if (longer / 3 > shorter) return longer / 3;
+  if (longer / 2 >= shorter) return shorter;
+  if (longer / 2 < shorter) return longer / 2;
+}
+
+console.log(maxlen(5, 12));
